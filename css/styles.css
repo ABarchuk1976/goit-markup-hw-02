@@ -32,6 +32,7 @@ body {
 }
 
 /* common styles for header and footer*/
+
 /* Header */
 .header {
   background-color: var(--header-bg);
@@ -48,17 +49,49 @@ body {
   color: var(--logo-header-color);
   text-decoration: none;
 }
-
-.header-logo:hover,
-.header-logo:focus {
-  color: var(--accent-color);
-}
-
-.logo-accent {
-  color: var(--accent-color);
-}
 /* End of logo */
 
+/* Menu */
+.header-menu {
+  list-style: none;
+}
+
+.header-menu-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--header-menu-color);
+  line-height: 114%;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-item:hover,
+.header-menu-item:focus {
+  color: var(--accent-color);
+}
+/* Links */
+.header-links {
+  list-style: none;
+}
+
+.header-link-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--header-link-color);
+  line-height: 114%;
+  letter-spacing: 0.02em;
+}
+
+.header-link-item:hover,
+.header-link-item:focus {
+  color: var(--accent-color);
+}
 /* styles for index.html/main */
 
 /* styles for portfolio.html/main */
+
+/* Color accent */
+.accent {
+  color: var(--accent-color);
+}
