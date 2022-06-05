@@ -1,6 +1,33 @@
-/* Fonts */
+/* Colors of project */
+:root {
+  --logo-header-color: #000000;
+  --logo-footer-color: #ffffff;
+  --accent-color: #2196f3;
+  --header-menu-color: #212121;
+  --header-link-color: #757575;
+  --footer-address-color: #ffffff;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --hero-title-color: #ffffff;
+  --button-primary-color: #ffffff;
+  --button-primary-bg: #2196f3;
+  --h2-color: #212121;
+  --h3-color: #212121;
+  --p-color: #757575;
+  --filter-inactive-color: #212121;
+  --filter-inactive-bg: #f5f4fa;
+  --body-bg: #e5e5e5;
+  --footer-bg: #2f303a;
+  --hero-bg: #2f303a;
+  --header-bg: #ffffff;
+  --border-line-color: #eeeeee;
+  --our-team-section-bg: #f5f4fa;
+}
+
+/* body */
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--body-bg);
+  color: var(--p-color);
 }
 
 /* common styles for header and footer*/
