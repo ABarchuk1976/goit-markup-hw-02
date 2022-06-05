@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --header-menu-color: #212121;
   --header-link-color: #757575;
+  --header-border-color: #ececec;
   --footer-address-color: #ffffff;
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --hero-title-color: #ffffff;
@@ -31,6 +32,32 @@ body {
 }
 
 /* common styles for header and footer*/
+/* Header */
+.header {
+  background-color: var(--header-bg);
+  border-color: var(--header-border-color);
+  border-bottom: 1px;
+}
+/* Logo */
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 119%;
+  letter-spacing: 0.03em;
+  color: var(--logo-header-color);
+  text-decoration: none;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  color: var(--accent-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+/* End of logo */
 
 /* styles for index.html/main */
 
