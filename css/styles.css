@@ -1,4 +1,7 @@
-/*  */
+/* Fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 /* common styles for header and footer*/
 
