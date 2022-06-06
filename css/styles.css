@@ -9,13 +9,13 @@
   --footer-address-color: #ffffff;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --hero-title-color: #ffffff;
-  --button-primary-color: #ffffff;
-  --button-primary-bg: #2196f3;
+  --button-accent-color: #ffffff;
+  --button-accent-bg: #2196f3;
+  --button-color: #212121;
+  --button-bg: #f5f4fa;
   --h2-color: #212121;
   --h3-color: #212121;
   --p-color: #757575;
-  --filter-inactive-color: #212121;
-  --filter-inactive-bg: #f5f4fa;
   --body-bg: #e5e5e5;
   --footer-bg: #2f303a;
   --hero-bg: #2f303a;
@@ -26,7 +26,7 @@
 
 /* body */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   background-color: var(--body-bg);
   color: var(--p-color);
 }
@@ -40,7 +40,7 @@ body {
 }
 /* Logo */
 .header-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 119%;
@@ -92,7 +92,7 @@ body {
 }
 
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 119%;
@@ -116,7 +116,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-address-color);
 }
-/* NEED FIXE VAR with rgba*/
+
 .footer-contacts {
   text-decoration: none;
   color: var(--footer-contacts-color);
@@ -142,26 +142,33 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
-.primary-button {
-  background-color: var(--button-primary-bg);
-  color: var(--button-primary-color);
+.hero-button {
+  background-color: var(--button-accent-bg);
+  color: var(--button-accent-color);
+  border-color: var(--button-accent-bg);
+  font-family: inherit;
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 188%;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   margin-top: 30px;
   margin: auto;
-  border: none;
+  border-width: 2px;
   cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--button-accent-color);
+  color: var(--button-accent-bg);
+  border-color: var(--button-accent-bg);
 }
 
 /* Peculiarities */
@@ -171,7 +178,8 @@ body {
   margin: auto;
 }
 
-.peculiarities-title-hide {
+.peculiarities-title-hide,
+.portfolio-title {
   display: none;
 }
 
@@ -239,6 +247,48 @@ body {
 }
 /* styles for portfolio.html/main */
 
+.filter-button {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 163%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 30px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--button-accent-bg);
+  color: var(--button-accent-color);
+}
+
+.accent-button {
+  background-color: var(--button-accent-bg);
+  color: var(--button-accent-color);
+}
+
+.example-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: var(--h2-color);
+}
+
+.example-text {
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.03em;
+}
 /* Color accent */
 .accent {
   color: var(--accent-color);
