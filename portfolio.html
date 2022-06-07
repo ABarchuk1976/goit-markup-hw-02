@@ -25,19 +25,20 @@
     <title>Портфолио</title>
 
     <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <!-- Header -->
     <header class="header">
-      <!-- Main section of navigation -->
+      <a href="./index.html" class="header-logo" lang="en">
+        <span class="accent">Web</span>Studio
+      </a>
+
       <nav>
-        <!-- Link on logo -->
-        <a href="./index.html" class="header-logo" lang="en">
-          <span class="accent">Web</span>Studio
-        </a>
-        <!-- Menu -->
         <ul class="list-style-none">
           <li>
             <a href="./index.html" class="header-menu-item">Студия</a>
@@ -50,7 +51,7 @@
           </li>
         </ul>
       </nav>
-      <!-- Link to tel: and malto: -->
+
       <ul class="list-style-none">
         <li>
           <a href="mailto:info@devstudio.com" class="header-link-item">info@devstudio.com</a>
@@ -60,12 +61,11 @@
         </li>
       </ul>
     </header>
-    <!-- Main body -->
+
     <main>
       <section>
-        <!-- 		Hide h1		 -->
         <h2 class="portfolio-title">Примеры выполненных работ</h2>
-        <!-- Filter as list of buttons -->
+
         <ul class="list-style-none">
           <li>
             <button type="button" class="filter-button accent-button">Все</button>
@@ -83,7 +83,7 @@
             <button type="button" class="filter-button">Маркетинг</button>
           </li>
         </ul>
-        <!-- Work examples -->
+
         <ul class="list-style-none">
           <li>
             <img
@@ -178,7 +178,7 @@
         </ul>
       </section>
     </main>
-    <!-- Footer -->
+
     <footer class="footer">
       <a href="./index.html" class="footer-logo" lang="en"><span class="accent">Web</span>Studio</a>
       <address class="footer-address">

@@ -35,8 +35,15 @@ body {
 
 /* Header */
 .header {
+  display: flex;
   background-color: var(--header-bg);
+  border-width: 2px;
   border-color: var(--header-border-color);
+}
+
+.nav {
+  display: inline-block;
+  width: 532px;
 }
 /* Logo */
 .header-logo {
@@ -47,6 +54,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--logo-header-color);
   text-decoration: none;
+  margin-left: ;
+  margin-top: 24;
 }
 
 .header-logo:hover,
@@ -56,6 +65,12 @@ body {
 /* End of logo */
 
 /* Menu */
+
+.header-menu {
+  margin-left: 93px;
+  margin-top: 32px;
+  padding: 0;
+}
 
 .header-menu-item {
   text-decoration: none;
@@ -295,5 +310,10 @@ body {
 }
 /* List style: none */
 .list-style-none {
+  padding: 0;
   list-style: none;
+}
+
+.item-inline-block {
+  display: inline-block;
 }
