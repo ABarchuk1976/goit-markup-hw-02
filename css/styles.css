@@ -75,7 +75,6 @@ body {
 .header-menu-item {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   color: var(--header-menu-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -90,7 +89,6 @@ body {
 .header-link-item {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   color: var(--header-link-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -125,7 +123,6 @@ body {
 }
 
 .footer-postadress {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--footer-address-color);
 }
@@ -133,7 +130,6 @@ body {
 .footer-contacts {
   text-decoration: none;
   color: var(--footer-contacts-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -197,7 +193,6 @@ body {
 
 .peculiarities-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--h3-color);
@@ -205,7 +200,6 @@ body {
 
 .peculiarities-p {
   width: 270px;
-  font-size: 14px;
   line-height: 1.71;
 }
 /* destinations */
