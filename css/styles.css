@@ -29,13 +29,14 @@ body {
   font-family: 'Roboto', 'Arial', sans-serif;
   background-color: var(--body-bg);
   color: var(--p-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /* common styles for header and footer*/
 
 /* Header */
 .header {
-  display: flex;
   background-color: var(--header-bg);
   border-width: 2px;
   border-color: var(--header-border-color);
@@ -50,8 +51,7 @@ body {
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 119%;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: var(--logo-header-color);
   text-decoration: none;
   margin-left: ;
@@ -77,7 +77,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: var(--header-menu-color);
-  line-height: 114%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -92,7 +92,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   color: var(--header-link-color);
-  line-height: 114%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -110,8 +110,7 @@ body {
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 119%;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: var(--logo-footer-color);
   text-decoration: none;
 }
@@ -127,8 +126,7 @@ body {
 
 .footer-postadress {
   font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
   color: var(--footer-address-color);
 }
 
@@ -136,8 +134,7 @@ body {
   text-decoration: none;
   color: var(--footer-contacts-color);
   font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 
 .footer-contacts:hover,
@@ -156,7 +153,7 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -169,7 +166,7 @@ body {
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -201,8 +198,7 @@ body {
 .peculiarities-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 114%;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
   color: var(--h3-color);
 }
@@ -210,8 +206,7 @@ body {
 .peculiarities-p {
   width: 270px;
   font-size: 14px;
-  line-height: 171%;
-  letter-spacing: 0.03em;
+  line-height: 1.71;
 }
 /* destinations */
 .destinations {
@@ -222,8 +217,7 @@ body {
 .destinations-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
   color: var(--h2-color);
 }
 
@@ -237,8 +231,7 @@ body {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
+  line-height: 1.17;
   color: var(--h2-color);
 }
 
@@ -249,15 +242,13 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 119%;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: var(--h3-color);
 }
 
 .team-position {
   font-size: 16px;
-  line-height: 119%;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: var(--p-color);
 }
 /* styles for portfolio.html/main */
@@ -269,7 +260,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 1.63;
   display: flex;
   align-items: center;
   text-align: center;
@@ -299,15 +290,14 @@ body {
 .example-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--h2-color);
 }
 
 .example-text {
   font-size: 16px;
-  line-height: 188%;
-  letter-spacing: 0.03em;
+  line-height: 1.88;
 }
 /* Color accent */
 .accent {
