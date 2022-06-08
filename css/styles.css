@@ -291,6 +291,11 @@ body {
   color: var(--button-accent-color);
 }
 
+.example-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .example-title {
   font-weight: 700;
   font-size: 18px;
@@ -312,6 +317,7 @@ body {
 .list-style-none {
   padding: 0;
   list-style: none;
+  text-decoration: none;
 }
 
 .item-inline-block {
